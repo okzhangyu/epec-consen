@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
-@Table(name = "AVA_MM_VIEW_OPRQ")
+//@Table(name = "AVA_MM_VIEW_OPRQ")
 public class PurchaseRequest {
 
     @Id

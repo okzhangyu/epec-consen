@@ -2,10 +2,14 @@ package com.avatech.edi.consen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@SpringBootApplication
+
 @EnableScheduling
+@SpringBootApplication
+@ComponentScan(basePackages = "com.avatech.edi")
 public class ConsenApplication {
 
     public static void main(String args[]){
